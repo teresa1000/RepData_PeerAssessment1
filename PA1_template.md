@@ -137,7 +137,7 @@ ggplot(stepsByInterval, aes(x =interval , y=average_steps)) +
   labs(title = "Average Daily Activity", x = "Interval", y = "Average Steps Across All Day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](./figure-html/unnamed-chunk-9-1.png)
 
 
 ```r
@@ -191,7 +191,7 @@ StepsPerDayNoNas<- tapply(activityNoNas$steps, activityNoNas$date, sum)
 hist(StepsPerDayNoNas, xlab = "Number of Steps", main = "Steps per Day (without NA)", col="orange")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](./figure-html/unnamed-chunk-13-1.png)
 
 ```r
 MeanPerDayNoNas <- mean(StepsPerDayNoNas, na.rm = TRUE)
@@ -250,7 +250,7 @@ plot(as.numeric(names(StepsPerIntervalWeekday)),
      type = "l")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
+![](./figure-html/unnamed-chunk-17-1.png)
 
 
 
