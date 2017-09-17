@@ -1,10 +1,13 @@
 ---
 title: "Reproducible Research - PA1_template"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
@@ -48,7 +51,7 @@ medianSteps <- median(totalStepsPerDay$totalSteps,na.rm=TRUE)
 meanSteps
 medianSteps
 ```
-#Q3 What is the average daily activity pattern
+## Q3 What is the average daily activity pattern
 
 ```{r ,message=FALSE, warning=FALSE}
 library(ggplot2)
