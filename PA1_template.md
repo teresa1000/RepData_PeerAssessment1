@@ -50,7 +50,7 @@
 ## # ... with 51 more rows
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+!RepData_PeerAssessment1/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 
 
