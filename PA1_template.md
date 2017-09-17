@@ -84,8 +84,8 @@ totalStepsPerDay <- activity %>% group_by(date) %>%summarise(totalSteps=sum(step
 hist(totalStepsPerDay$totalSteps, main =paste("Total Steps Each Day"), xlab="Number of Steps",col="green")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
-![/unnamed-chunk-5-1](/unnamed-chunk-5-1.png)
+
+![](./figure-html/unnamed-chunk-5-1.png)
 
 ```r
 meanSteps <- mean(totalStepsPerDay$totalSteps,na.rm=TRUE)
