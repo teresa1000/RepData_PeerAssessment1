@@ -85,7 +85,7 @@ hist(totalStepsPerDay$totalSteps, main =paste("Total Steps Each Day"), xlab="Num
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
-
+![/unnamed-chunk-5-1](/unnamed-chunk-5-1.png)
 
 ```r
 meanSteps <- mean(totalStepsPerDay$totalSteps,na.rm=TRUE)
