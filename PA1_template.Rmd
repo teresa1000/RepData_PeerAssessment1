@@ -1,13 +1,13 @@
 ---
 title: "Reproducible Research - PA1_template"
 output:
-  html_document: default
-  pdf_document: default
-  word_document: default
+  html_document: 
+   keep_md: true
+
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo =TRUE, cache = FALSE)
 ```
 
 
